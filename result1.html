@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/styles/body.css">
+    <link rel="stylesheet" href="source/styles/section.css">
+    <link rel="stylesheet" href="source/styles/top.css">
+    <link rel="stylesheet" href="source/styles/modal.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+
+    <title>ФЛГРБ</title>
+</head>
+
+<body>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <header>
+        <div class="top-line">
+            <div class="top-logo">
+                <img src="http://www.flgr.ru/cms/templates/flgr/pics/logo.png" alt="top-logo">
+            </div>
+            <div class="top-info">
+                <h1>Федерация лыжных гонок РБ</h1>
+            </div>
+            <div class="top-info-s">
+                <h1>ФЛГРБ</h1>
+            </div>
+            <div class="socmed">
+                <a href="https://t.me/FLGR_Athlets_bot" target="_blank"><img class="top-img" src="source/images/tg.png"
+                        alt="tg"></a>
+                <a href="https://www.youtube.com/channel/UCMCrv5NF7NDV2ZcWUUdcqvg" target="_blank"><img class="top-img"
+                        src="source/images/yt.png" alt="yt"></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="source/images/free-icon-skiing-3831379.png" alt="main-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="/">Главная</a>
+                        <a class="nav-link active" href="result.html">Результаты</a>
+                        <a class="nav-link" href="calendar.html">Календарь</a>
+                        <a class="nav-link" href="coach.html">Тренерский штаб</a>
+                        <a class="nav-link" href="spotsman.html">Спортсмены</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 text-center right-side">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10">
+                            <h4>Cледующие соревнования</h4>
+                            <div class="card" style="width: 16em;">
+                                <img src="https://liveangarsk.ru/files/imagecache/attachbig/files/news/529277/7c0-p1d92d4e638bo1u3t1vg0rhl13nc4.jpg"
+                                    class="card-img-top" alt="BSM">
+                                <div class="card-body">
+                                    <h5 class="card-title">Байкальский лыжный марафон 2023</h5>
+                                    <p class="card-text">Байкальский лыжный марафон 2023 будет проводиться в селе
+                                        Максимиха 20-22 апреля. Заявку можно подать сейчас.</p>
+                                    <a href="https://t.me/OrderSport_bot" target="_blank" class="btn btn-primary">Подать заявку</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center center-side">
+                    <div class="row">
+                        <div class="col-lg-12 py-4 px-2"><h4>Чемпионат Республики Бурятии по лыжным гонкам.<br>Мужчины. 15 км. Классика</h4></div>
+                        <div class="col-lg-12 d-flex one-row">
+                            <div class="row w-100">
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">1</div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item"><a href="">Иванов Иван</a></div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item">Заиграево</div>
+                                </div>
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">40:34</div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-12 d-flex one-row">
+                            <div class="row w-100">
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">2</div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item"><a href="">Петров Петр</a></div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item">ПВЗ</div>
+                                </div>
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">41:42</div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-12 d-flex one-row">
+                            <div class="row w-100">
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">3</div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item"><a href="">Йоханес Клебо</a></div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item">Осло</div>
+                                </div>
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">43:08</div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-12 d-flex one-row">
+                            <div class="row w-100">
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">4</div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item"><a href="">Дудов Роман</a></div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item">Улан-Удэ</div>
+                                </div>
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">44:25</div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-12 d-flex one-row">
+                            <div class="row w-100">
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">5</div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item"><a href="">Воля Павел</a></div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item">Усть-Баргузин</div>
+                                </div>
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">44:37</div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-12 d-flex one-row">
+                            <div class="row w-100">
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">6</div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item"><a href="">Шубин Иван</a></div>
+                                </div>
+                                <div class="col-lg-4 border">
+                                    <div class="name row-item">Заиграево</div>
+                                </div>
+                                <div class="col-lg-2 border">
+                                    <div class="place row-item">45:14</div>
+                                </div>
+                            </div>                           
+                        </div>
+                        
+                        <div class="col-lg-12 my-5">
+                            <button type="button" class="btn btn-primary">Скачать Протокол</button>
+                        </div> 
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 text-center left-side">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10">
+                            <h4>Последние результаты</h4>
+                            <div class="card" style="width: 16em;">
+                                <img src="https://img.championat.com/news/big/c/z/yuliya-stupak-opublikovala-post-o-zhiznennoj-pozicii_1652435439640736244.jpg"
+                                    class="card-img-top" alt="BSM">
+                                <div class="card-body">
+                                    <h5 class="card-title">Чемпионат Бурятии по лыжным гонкам 2022!</h5>
+                                    <p class="card-text">В минувшие выходные в Бурятии прошел Чемпионат по лыжным
+                                        гонкам. По итогом соревнований тренирский штаб сформировал предворительные
+                                        списки кандидатов в сборную РБ.</p>
+                                    <a href="result.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="m-2">
+        <div class="bottom-line">
+            <div class="socmed">
+                <a href="https://t.me/FLGR_Athlets_bot" target="_blank"><img class="top-img" src="source/images/tg.png"
+                        alt="tg"></a>
+                <a href="https://www.youtube.com/channel/UCMCrv5NF7NDV2ZcWUUdcqvg" target="_blank"><img class="top-img"
+                        src="source/images/yt.png" alt="yt"></a>
+            </div>
+            <div class="bottom-info">
+                <a class="p-2" href="https://t.me/@VladMalyuk" target="_blank">Задать вопрос разработчику</a>
+            </div>
+            <div class="bottom-info-s">
+                <a class="p-2" href="https://t.me/@VladMalyuk" target="_blank">Вопрос разработчику</a>
+            </div>
+            <div class="bottom-left">
+                <p>@Все права защищены@</p>
+                <p>@Лыжное сообщество@</p>
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

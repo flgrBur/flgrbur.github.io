@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/styles/body.css">
+    <link rel="stylesheet" href="source/styles/section.css">
+    <link rel="stylesheet" href="source/styles/top.css">
+    <link rel="stylesheet" href="source/styles/modal.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+
+    <title>ФЛГРБ</title>
+</head>
+
+<body>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <header>
+        <div class="top-line">
+            <div class="top-logo">
+                <img src="http://www.flgr.ru/cms/templates/flgr/pics/logo.png" alt="top-logo">
+            </div>
+            <div class="top-info">
+                <h1>Федерация лыжных гонок РБ</h1>
+            </div>
+            <div class="top-info-s">
+                <h1>ФЛГРБ</h1>
+            </div>
+            <div class="socmed">
+                <a href="https://t.me/FLGR_Athlets_bot" target="_blank"><img class="top-img" src="source/images/tg.png"
+                        alt="tg"></a>
+                <a href="https://www.youtube.com/channel/UCMCrv5NF7NDV2ZcWUUdcqvg" target="_blank"><img class="top-img"
+                        src="source/images/yt.png" alt="yt"></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="source/images/free-icon-skiing-3831379.png" alt="main-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="/">Главная</a>
+                        <a class="nav-link" href="result.html">Результаты</a>
+                        <a class="nav-link" href="calendar.html">Календарь</a>
+                        <a class="nav-link" href="coach.html">Тренерский штаб</a>
+                        <a class="nav-link active" href="spotsman.html">Спортсмены</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 text-center right-side">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10">
+                            <h4>Cледующие соревнования</h4>
+                            <div class="card" style="width: 16em;">
+                                <img src="https://liveangarsk.ru/files/imagecache/attachbig/files/news/529277/7c0-p1d92d4e638bo1u3t1vg0rhl13nc4.jpg"
+                                    class="card-img-top" alt="BSM">
+                                <div class="card-body">
+                                    <h5 class="card-title">Байкальский лыжный марафон 2023</h5>
+                                    <p class="card-text">Байкальский лыжный марафон 2023 будет проводиться в селе
+                                        Максимиха 20-22 апреля. Заявку можно подать сейчас.</p>
+                                    <a href="https://t.me/OrderSport_bot" target="_blank" class="btn btn-primary">Подать заявку</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center center-side">
+                    <div class="row man-team mt-4">
+                        <h2>Мужской состав</h2>
+                    </div>
+                    <div class="row my-4 help-sportsman">
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun4-17.userapi.com/impf/c853524/v853524963/2b6cc/FvPUQeIV7M4.jpg?size=1280x853&quality=96&sign=c8c85f85a99cb4353e7b5b166a395f75&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Дакич<br> Антон<br> Валентинович</h6>
+                                    <a href="sportsman/m1.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun9-54.userapi.com/impf/c846524/v846524275/6807f/K32IqxI1GDk.jpg?size=854x854&quality=96&sign=88f8eb08fe78a2259ca25b17064f7efd&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Прохоров<br> Александр<br> Эдуардович</h6>
+                                    <a href="sportsman/m2.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                                </div>
+                            </div>
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPkAAADKCAMAAABQfxahAAAAMFBMVEX29vbHx8fExMTX19f5+fnt7e3R0dHh4eHw8PD19fXn5+fLy8vT09Pd3d3l5eXg4OBxvuVsAAAE9UlEQVR4nO2d6ZajIBBGBUFFXN7/badj95yAWSzAtor0d/9OxsMNkaUoqpsGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALzG0OBu5tkYN85Td8zU9sMnyRs3K60VCa07+zHupldE7R/5yXE3+SSmJO+Nz+j2Ll1cacvd6nJMmyH+xcDd8GLGPHHVVf9793niSo/cLS8kt8ur73TT5YorXfebPmR3udJzzZ1u1nxzpao2zx3ftk6veU63JV2u2no73bQl4kpVvHwvE9cLd/vJ7KMM+ZP5N10NYQtjnF36tY/In8x/mKPHrf0yDo0sfTPMXj9SKq6ePbMd5cibYTrBkv51+EWIupkv1P5270QE65y/WvzmPvKrD9drb+o9t7orWZ8WqTO/7AW70GJ11mV92V6sEM/Z6Y5RXOmVT/36+SyGTbxpeMUZdzQLrzlfkLJ0+12M5trAF8WaTjHnisk7ZnG+0b0gpHySOVdguiC+uO20/Rdl23iuGGWuuVbTaoefAJOzS+tz7asy16q1TRxRM2bo87a6FZlrvzyNJRljc87ZqzHXfnwdP73FtD7VXM/vn2ds6m++DnPtCWk/iT/5Ksz1RHmkSdsK1GBOXXQY+2Hm9NWWSQlpyjdPWmYmqIs3148tNI2z4zjawT3Mc4b+jYo373b/0TRj+/8cTnXr/sCEPsyJN4+znLbM5+BfH7ObyXmTws13ZwJmfcx81pOLHWji0s3jaNnwfJ22+3qIOQeyzaOMvtfTdTz8E89uZJuHrXs3bMcTQPqzr4TUuqjL307VUa/TOl20+RQ27n2wNjoUJ73pks3DwPDhZBXFzykhbcnmKuXz4atOOrOTbB66HL+64aCQ+PRLIbQtPPRLVTn+tGjzeyfSTuHub7qZqjZXaX0YDoiUF12webByTV6bEOY1weZB03qSuU/6quSaB8sy6mH7/UUnJOEINr/n61EGLBUvZqo2v09qxN1XOBnAvErz/u5B/LUHq7iqzf/sCBc0jZgo6u+PJySjCDaf/uxKJliYkDKpwiGR8CMRbK7TdiDR0F73jiUMyVDiS8HbYQhflGDzKDJxHF8Ks/Urj0yEYzWh04OtXfXRqLAXD5dx4TKGlFQr2Txq3MHwHqWxJj/8SmgnDcHm6/3JuA5D87Qln2zz6OTkzcm4jk7ZadnEos3j44PX6nHuFHGVL9s8bp6xz+uG7TJpch59IdTMgfhKnXtyxrTPEqTelhBuHs3pNy27u7Stfb/7BPU2mHTzh9So6KK+f7hKT0+Okm7+5L7JltG/znP/rHwCPSFOvPmLi8MvamYkXG+Wb55yUz7lXncF5vTr4kkX2mswJ6a+pqU612H+tTp1h+00tMO3ysy/OHjZzZBaJrQa87fle41Lv81ejfltX/LC3bgn6bCfZH7r9+Uhpf12Wy3DuzLzLat7tu5e/8suedr1mW/yWvmpbdup8yVXcrnM/+4tbKbCSYE51817yinI75pzVVsgJgP8ojlbGeDEtebp8NVPYi2exFo+ibmgDFs5mYZ5XmMtec1bMovP+wZfGSHuov5sqxn28u4JF4fPFecv9J10U/48ce4e33AZf2On0PsornUVZry02K1Ws6DC7uOkzqhgfWyttV+PY7hXYhrbz+2vs46DxCruxL+aVwS3IwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Br+AYSFRdOsVUwBAAAAAElFTkSuQmCC" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Коробченко<br> Николай<br> Александрович</h6>
+                                    <a href="sportsman/m3.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>                       
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun4-17.userapi.com/impg/PUe1ePxvUjLrmliZ8ZZiU86SSDy31oR2rDGG7w/LtDSykHlWh4.jpg?size=1280x1280&quality=95&sign=317459e46dd29a418217ffdffd811937&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Бологов<br> Андрей<br> Романович</h6>
+                                    <a href="sportsman/m4.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun4-10.userapi.com/impf/rbIinUEZvOvJSl4U50gzz3iPrXE1AuYNCcsq5Q/AM-lAcXSUrE.jpg?size=807x538&quality=96&sign=386fe62d5692f96c9e35833c5bf71dee&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Онопко<br> Дмитрий<br> Игоревич</h6>
+                                    <a href="sportsman/m5.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                                </div>
+                            </div>
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun9-39.userapi.com/impg/gwDOcVNnjVGv2uNYGx4imuemZkT43eXxBz4moQ/davdIFVeNDI.jpg?size=1280x960&quality=96&sign=b705bbfac1c03decdf7452fb50ee5c76&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Шагжиев<br> Максар<br> Баисхалонович</h6>
+                                    <a href="sportsman/m6.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>                       
+                    <div class="row w-100 mt-2 separatemw"></div>
+                    </div>
+                    <div class="row man-team mt-2">
+                        <h2 class="mt-4 m-0">Женский состав</h2>
+                    </div>
+                    <div class="row my-4 help-sportsman">
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun9-77.userapi.com/impg/MHY9zI6p0X_5TWSmP8_a5eHlcoqz--7c18i2AQ/sneRzFOccmk.jpg?size=1280x960&quality=96&sign=6e58b410a25f77497b9e70b239b1c663&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Жамбалова<br>Алиса<br>Саяновна</h6>
+                                    <a href="sportsman/w1.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun9-19.userapi.com/impg/qwQqP1N7nay-a_s9IKoUnKXPKBOhgFiKi3KcNw/S2UW04O7N3o.jpg?size=1080x1080&quality=95&sign=154c667839bc82c1128b1fd3a793e223&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Невьянцева<br>Виктория<br>Александровна</h6>
+                                    <a href="sportsman/w2.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                                </div>
+                            </div>
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://sun9-18.userapi.com/impg/fzj-bJ_HvgKIUEt3IG1hwP4uAwPcWRyhCdjLtA/vW4yQIMaCpQ.jpg?size=512x512&quality=95&sign=5375b4e9f65a32e93de87da357598633&type=album" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Жамбалова<br>Александра<br>Саяновна</h6>
+                                    <a href="sportsman/w3.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>                       
+                        <div class="col-lg-4 mt-4 col-md-6 sportsmancard">
+                            <div class="card card-sportsman" style="width: 12em;">
+                                <img src="https://i.pinimg.com/originals/8a/eb/d8/8aebd875fbddd22bf3971c3a7159bdc7.png" class="card-img-top" alt="headcoach">
+                                <div class="card-body">
+                                    <h6 class="card-title">Федотова<br>Лидия<br>Валентиновна</h6>
+                                    <a href="sportsman/w4.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center left-side">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10">
+                            <h4>Последние результаты</h4>
+                            <div class="card" style="width: 16em;">
+                                <img src="https://img.championat.com/news/big/c/z/yuliya-stupak-opublikovala-post-o-zhiznennoj-pozicii_1652435439640736244.jpg"
+                                    class="card-img-top" alt="BSM">
+                                <div class="card-body">
+                                    <h5 class="card-title">Чемпионат Бурятии по лыжным гонкам 2022!</h5>
+                                    <p class="card-text">В минувшие выходные в Бурятии прошел Чемпионат по лыжным
+                                        гонкам. По итогом соревнований тренирский штаб сформировал предворительные
+                                        списки кандидатов в сборную РБ.</p>
+                                    <a href="result.html" class="btn btn-primary">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="m-2">
+        <div class="bottom-line">
+            <div class="socmed">
+                <a href="https://t.me/FLGR_Athlets_bot" target="_blank"><img class="top-img" src="source/images/tg.png"
+                        alt="tg"></a>
+                <a href="https://www.youtube.com/channel/UCMCrv5NF7NDV2ZcWUUdcqvg" target="_blank"><img class="top-img"
+                        src="source/images/yt.png" alt="yt"></a>
+            </div>
+            <div class="bottom-info">
+                <a class="p-2" href="https://t.me/@VladMalyuk" target="_blank">Задать вопрос разработчику</a>
+            </div>
+            <div class="bottom-info-s">
+                <a class="p-2" href="https://t.me/@VladMalyuk" target="_blank">Вопрос разработчику</a>
+            </div>
+            <div class="bottom-left">
+                <p>@Все права защищены@</p>
+                <p>@Лыжное сообщество@</p>
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
