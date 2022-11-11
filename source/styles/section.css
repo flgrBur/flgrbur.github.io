@@ -226,3 +226,9 @@ bold {
     text-decoration: none;
     color: rgb(87, 63, 221);
 }
+
+@media (max-width:500px) {
+    .table-success {
+        font-size: 0.8em;
+    }
+}
