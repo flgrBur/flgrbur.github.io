@@ -21,6 +21,9 @@ bold {
 .one-row {
     justify-content: space-around;
     background-color: #FFFFFF;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: rgb(126, 207, 212);
 
 }
 .row-item {
